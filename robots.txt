@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://escapefromchungachanga.com/sitemap.xml
+Sitemap: https://www.escapefromchungachanga.com/sitemap.xml
