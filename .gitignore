@@ -1,0 +1,3 @@
+.wrangler/
+dns_connect_proxy.py
+seo-audit/lighthouse-*.json
