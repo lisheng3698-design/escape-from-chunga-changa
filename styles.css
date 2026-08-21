@@ -8,7 +8,7 @@
   --sand: #f4ead4;
   --paper: #fffaf0;
   --sun: #ffd76b;
-  --coral: #ef6a4b;
+  --coral: #a94230;
   --white: #fffdf8;
   --line: rgba(23, 48, 44, .14);
   --shadow: 0 24px 70px rgba(7, 31, 27, .22);
@@ -179,6 +179,7 @@ h1 {
 .feature-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 64px; }
 .feature-card { min-height: 250px; padding: 28px; border: 1px solid var(--line); border-radius: var(--radius-md); background: rgba(255,255,255,.54); }
 .feature-card.featured { color: white; background: var(--leaf); transform: translateY(-18px) rotate(-1deg); box-shadow: 0 20px 55px rgba(30,92,74,.23); }
+.feature-card.featured p { opacity: .88; }
 .card-number { display: inline-grid; place-items: center; width: 42px; height: 42px; margin-bottom: 45px; border: 1px solid currentColor; border-radius: 50%; font-size: 12px; font-weight: 900; }
 .feature-card h3 { margin: 0 0 12px; font-size: 26px; }
 .feature-card p { margin: 0; opacity: .76; }
@@ -221,7 +222,7 @@ h1 {
 .independent-note { padding: 0 0 90px; background: var(--paper); }
 .note-card { display: grid; grid-template-columns: auto 1fr auto; gap: 22px; align-items: center; padding: 30px; color: white; background: var(--leaf); border-radius: var(--radius-lg); box-shadow: var(--shadow); }
 .note-card h2 { margin: 0 0 5px; font-size: 24px; }
-.note-card p { margin: 0; color: rgba(255,255,255,.72); }
+.note-card p { margin: 0; color: rgba(255,255,255,.88); }
 .button { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 10px 17px; border-radius: 12px; text-decoration: none; font-weight: 850; }
 .button.secondary { color: var(--jungle); background: var(--sun); }
 
