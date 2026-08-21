@@ -4,11 +4,19 @@ Audit date: 2026-08-21 (Asia/Shanghai)
 
 ## Release verified
 
+- Launch date: `2026-08-21`
+- Canonical production URL: <https://www.escapefromchungachanga.com/>
+- Apex behavior: <https://escapefromchungachanga.com/> returns HTTPS `301` to the canonical `www` URL
 - Cloudflare Pages project: `escapefromchungachanga-com`
 - Production preview: <https://escapefromchungachanga-com.pages.dev/>
 - GitHub production branch: `main`
-- Audited commit: `2fd8dcaa1bf34fe0f72b3529f131f9a98dd494f4`
+- Audited site commit: `2fd8dcaa1bf34fe0f72b3529f131f9a98dd494f4`
 - Cloudflare deployment status: `success`
+- Cloudflare custom domain: `www.escapefromchungachanga.com` — `active`
+- Authoritative DNS: Spaceship (`launch1.spaceship.net`, `launch2.spaceship.net`)
+- DNS layout: Spaceship CNAME `www` to `escapefromchungachanga-com.pages.dev`; apex uses Spaceship FreeSSL 301 redirect
+
+Production route checks passed: homepage `200`, how-to-play `200`, about `200`, robots `200`, sitemap `200`, and an unknown path `404`. The live iframe loaded the Yandex-hosted game with title `ChungaChanga Runaway`, one canvas, and zero captured console errors.
 
 ## Production Lighthouse (mobile)
 
