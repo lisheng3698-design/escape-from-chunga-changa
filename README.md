@@ -1,6 +1,6 @@
 # Escape from Chunga Changa
 
-Static English-language play-and-guide site for `escapefromchungachanga.com`.
+Static English-language guide site for `escapefromchungachanga.com`, with clearly labeled external links to the official game page on Yandex Games.
 
 ## Local preview
 
@@ -14,13 +14,10 @@ Open `http://127.0.0.1:4173/`.
 
 The site is designed for Cloudflare Pages with no build command and the repository root as the output directory.
 
-The public provider page is:
+The game is not hosted or embedded by this project. Every play call-to-action opens the public provider page in a new tab:
 
-```html
-<iframe src="https://yandex.com/games/app/563425?language=en"
-        width="100%" height="600" frameborder="0" allowfullscreen></iframe>
-```
+`https://yandex.com/games/app/escape-from-chunga-changa-563425?language=en`
 
-That page currently returns `X-Frame-Options: DENY` / a restrictive `frame-ancestors` policy when framed by a third-party domain. The live player therefore uses the official `app-563425.cdn.games.yandex.net` iframe URL that the Yandex play page itself loads. The public provider page remains the external fallback link.
+This external-link approach avoids implying a distribution license and keeps game delivery, accounts, advertising, purchases, progress, and platform data handling on Yandex Games.
 
 No login, registration, subscription, payment, database, or first-party analytics module is included.

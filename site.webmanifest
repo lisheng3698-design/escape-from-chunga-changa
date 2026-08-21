@@ -1,7 +1,7 @@
 {
   "name": "Escape from Chunga Changa",
   "short_name": "Chunga Changa",
-  "description": "Play Escape from Chunga Changa online and read spoiler-light starter tips.",
+  "description": "Open Escape from Chunga Changa on Yandex Games and read spoiler-light starter tips.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#102f2b",
