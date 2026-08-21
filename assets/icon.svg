@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Escape island mark</title>
+  <defs>
+    <linearGradient id="bg" x1="8" y1="5" x2="56" y2="59" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2b7c5f"/>
+      <stop offset="1" stop-color="#0c302a"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="18" fill="url(#bg)"/>
+  <circle cx="45" cy="19" r="8" fill="#ffd76b"/>
+  <path d="M4 46c10-5 17-4 28 0 9 3 18 4 28-1v13H4V46Z" fill="#36a89c"/>
+  <path d="M29 15c-7 4-10 10-9 18m9-18c8 3 12 9 13 16m-13-16c-1 9-1 17 1 26" fill="none" stroke="#f8efd9" stroke-width="3" stroke-linecap="round"/>
+  <path d="M29 16c-7-6-12-4-16 0 6-1 10 1 13 5m4-5c7-6 12-3 15 2-6-2-10 0-13 4" fill="#f8efd9"/>
+  <path d="M18 46h25l-3 7H21l-3-7Z" fill="#ef6a4b"/>
+  <path d="M30 38v8m0-7 9 5H30" fill="none" stroke="#f8efd9" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,17 @@
+{
+  "name": "Escape from Chunga Changa",
+  "short_name": "Chunga Changa",
+  "description": "Play Escape from Chunga Changa online and read spoiler-light starter tips.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#102f2b",
+  "theme_color": "#102f2b",
+  "icons": [
+    {
+      "src": "/assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
